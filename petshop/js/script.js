@@ -30,10 +30,11 @@ window.onload = () =>{
         document.querySelector('.header').classList.remove('active');
     }
 }
+activarEvento();
 //slider about
 function activarEvento() {
   // Obtener el div al que deseas agregar el evento
-  var miDiv = document.getElementById("home-slider");
+  var miDiv = document.getElementById("home-slider2");
 
   // Agregar el evento de mouseover al div
   miDiv.addEventListener("mouseover", function() {
@@ -49,10 +50,12 @@ function activarEvento() {
         effect: "slide",
         mousewheelControl: 1
       });
+      
     // Acciones que se realizarán cuando se coloque el mouse sobre el div
     console.log("El mouse está sobre el div.");
     // Agrega aquí el código que deseas ejecutar cuando se active el evento
+    return
   });
 }
-activarEvento();
+
   
