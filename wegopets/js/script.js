@@ -1,6 +1,4 @@
-window.onload = function() {
-    window.location.href = "/wegopets/index.html";
-  };
+
 let loginForm = document.querySelector('.header .login-form');
 
 document.querySelector('#login-btn').onclick = () =>{
