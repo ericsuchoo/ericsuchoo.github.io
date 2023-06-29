@@ -1075,13 +1075,14 @@ Home Slider
 h1 {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 500;
-  color: #9e86acff;
+  color: #c285ffff;
   align-self: flex-start;
   margin: 0 0 auto 0;
   font-size: 8.5rem;
   line-height: 1;
   transition: all .8s cubic-bezier(0.215, 0.61, 0.355, 1) 1.1s;
   transform: translate3d(-20%, 0, 0);
+  text-shadow: 0.4vh 1px 1px rgba(14, 14, 14, 0.923);
   opacity: 0;
 }
 h1 span.emphasis {
@@ -1091,11 +1092,12 @@ h1 span.emphasis {
   transition: all .8s cubic-bezier(0.215, 0.61, 0.355, 1) 1.2s;
   transform: translate3d(-20%, 0, 0);
   display: inline-block;
-  color: #6a99a3ff;
+  color: #6bb9ffff;
+  text-shadow: 0.4vh 1px 1px rgba(14, 14, 14, 0.923);
 }
 h1 span:not(.emphasis) {
   font-size: 8.5rem;
-  text-shadow: 2px 2px 4px rgb(249, 249, 252);
+  text-shadow: 0.4vh 1px 1px rgba(14, 14, 14, 0.923);
 }
 h1 + p {
   font-family: 'Cormorand SC';
@@ -1110,14 +1112,15 @@ h1 + p {
   transform: translate3d(-20%, 0, 0);
   opacity: 0;
   font-weight: 500;
-  color: #000000;
+  color:#6693ffff;
   padding-right: 8rem;
-  text-shadow: 2px 2px 4px rgb(192, 193, 221);
+  text-shadow: 0.4vh 1px 1px rgba(14, 14, 14, 0.923);
 }
 p.paragraph {
   margin: 0;
   font-family: 'Cormorant Garamond', serif;
-  color: #070230;
+  color: #7a9fffff;
+  text-shadow: 0.2vh 1px 1px rgb(14, 14, 14);
   width: 100%;
   max-width: 350px;
   text-align: justify;
