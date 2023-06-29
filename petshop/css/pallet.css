@@ -1,0 +1,47 @@
+.pallet{
+    /* CSS HEX priemra paleta*/
+--pomp-and-power: #8b6f9bff;
+--african-violet: #9e86acff;
+--mountbatten-pink: #807799ff;
+--ultra-violet: #626785ff;
+--moonstone: #6a99a3ff;
+--taupe-gray: #9f9691ff;
+--silver: #a8a09bff;
+--silver-2: #b0a9a4ff;
+/* CSS HEX segunda paleta*/
+--lilac: #c591b1ff;
+--lilac-2: #cda0bcff;
+--lilac-3: #ba91b1ff;
+--african-violet: #aa83aaff;
+--french-gray: #b0a9afff;
+--tea-rose-red: #d0aba4ff;
+--pale-dogwood: #d5b5adff;
+--pale-dogwood-2: #dabcb5ff;
+   /* CSS HEX tercera paleta*/
+--vista-blue: #8aa6dcff;
+--vista-blue-2: #99afe0ff;
+--carolina-blue: #83b2daff;
+--sky-blue: #6ec6d4ff;
+--carolina-blue-2: #8dbedeff;
+--lavender-floral: #ba84e2ff;
+--wisteria: #c593e6ff;
+--wisteria-2: #c69be7ff;
+/* CSS HEX cuarta paleta*/
+--cornflower-blue: #6693ffff;
+--vista-blue: #7a9fffff;
+--ruddy-blue: #5ca9ffff;
+--vivid-sky-blue: #42d2ffff;
+--argentinian-blue: #6bb9ffff;
+--amethyst: #b366ffff;
+--lavender-floral: #bf7affff;
+--lavender-floral-2: #c285ffff;
+/* CSS HEX paleet especial*/
+--heliotrope: #e761f8ff;
+--heliotrope-2: #ea75f9ff;
+--heliotrope-3: #db5cffff;
+--phlox: #c057ffff;
+--heliotrope-4: #de70ffff;
+--brilliant-rose: #e761adff;
+--persian-pink: #eb7ab8ff;
+--persian-pink-2: #ec80beff;
+  }

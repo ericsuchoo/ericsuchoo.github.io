@@ -54,8 +54,8 @@ function activarEvento() {
     // Acciones que se realizarán cuando se coloque el mouse sobre el div
     console.log("El mouse está sobre el div.");
     // Agrega aquí el código que deseas ejecutar cuando se active el evento
-    return
-  });
+   
+  }); return
 }
 
   
