@@ -1,5 +1,5 @@
 window.onload = function() {
-    window.location.href = "../petshop/index.html";
+    window.location.href = "../wegopets/index.html";
   };
 let loginForm = document.querySelector('.header .login-form');
 
