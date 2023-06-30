@@ -455,7 +455,64 @@ section {
   text-shadow: 0.4vh 1px 1px rgba(14, 14, 14, 0.923);
   /*345c6d,307379,518288,518288,EBE2DD, extra: 3fe1ef,fba208,ecc37b*/
 }
-
+.home-tienda{
+  background-color: #345c6d;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: url(/image/2.2.1-removebg\ \(3\).png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0.4vh 1px 1px rgba(14, 14, 14, 0.923);
+  /*345c6d,307379,518288,518288,EBE2DD, extra: 3fe1ef,fba208,ecc37b*/
+}
+.home-citas{
+  background-color: #bf13da;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: url(/image/home_bg_img.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0.4vh 1px 1px rgba(14, 14, 14, 0.923);
+  /*345c6d,307379,518288,518288,EBE2DD, extra: 3fe1ef,fba208,ecc37b*/
+}
+.home-servicios {
+  background-color: #345c6d;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: url(/image/bruno\ \ gma\ colores_ml_resize_x2_colored_toned_light_ai.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-shadow: 0.4vh 1px 1px rgba(14, 14, 14, 0.923);
+  /*345c6d,307379,518288,518288,EBE2DD, extra: 3fe1ef,fba208,ecc37b*/
+}
+/*content del titulo index*/
 .home .content {
   width: 50rem;
 }
@@ -469,7 +526,23 @@ section {
 .home .content h3 span {
   color: #ba84e2ff;
 }
+/*content del titulo index final*/
 
+/*content del titulo tienda*/
+.home .content-tienda  {
+  width: 50rem;
+}
+
+.home .content-tienda h3 {
+  font-size: 6rem;
+  color:#807799ff;
+  padding-bottom: 1rem;
+}
+
+.home .content-tienda h3 span {
+  color: #e761f8ff;
+}
+/*content del titulo tienda final*/
 .home .content .btn {
   color: #fff;
   border-color: #151313;
