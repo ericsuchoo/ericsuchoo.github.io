@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pasarela de Productos</title>  <link rel="stylesheet" href="/css/style.css">
+  <style>
+
+  
+    .product {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .product img {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+    }
+    .product-info {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pasarela de Productos</h1>
+
+  <div id="product-container"></div>
+
+  <script>
+    // Datos de productos
+    const products = [
+      { id: 1, name: "Producto 1", price: 10.99, image: "product1.jpg" },
+      { id: 2, name: "Producto 2", price: 19.99, image: "product2.jpg" },
+      { id: 3, name: "Producto 3", price: 5.99, image: "product3.jpg" }
+    ];
+
+    // Obtener el contenedor de productos
+    const productContainer = document.getElementById("product-container");
+
+    // Recorrer los productos y crear elementos HTML
+    products.forEach(product => {
+      // Crear elementos HTML
+      const productElement = document.createElement("div");
+      productElement.className = "product";
+
+      const productImage = document.createElement("img");
+      productImage.src = product.image;
+
+      const productInfo = document.createElement("div");
+      productInfo.className = "product-info";
+      const productName = document.createElement("h3");
+      productName.textContent = product.name;
+      const productPrice = document.createElement("p");
+      productPrice.textContent = `Precio: $${product.price}`;
+
+      // Agregar elementos al contenedor de productos
+      productInfo.appendChild(productName);
+      productInfo.appendChild(productPrice);
+
+      productElement.appendChild(productImage);
+      productElement.appendChild(productInfo);
+
+      productContainer.appendChild(productElement);
+    });
+  </script>
+</body>
+</html>
